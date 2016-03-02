@@ -8,9 +8,8 @@ body {
   overflow: auto;
 }
 
-body {
-  background-color: White;
-  background-position: center center;
+span {
+  display: block;
 }
 
 .logo {
@@ -22,6 +21,7 @@ ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-top: 7%;
     overflow: hidden;
 }
 
@@ -44,5 +44,5 @@ ul.topnav li a:hover {background-color: #f2f2f2;}
     width: 100%;
     padding: 14px 16px;
     font-size: 17px
-    
+
   }
