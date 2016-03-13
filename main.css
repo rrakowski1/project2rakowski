@@ -45,6 +45,11 @@ ul.logo img:hover {
     filter: alpha(opacity=100);
 }
 
+h1, form {
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
 .background{
   Width: 100%;
 }
