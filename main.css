@@ -51,7 +51,7 @@ ul.logo img:hover {
 
 /* index and contact */
 
-h1, form {
+h1, form, {
   margin-left: 30%;
 }
 
@@ -76,9 +76,9 @@ div.transbox p {
 
 /* services */
 
-dt {
+dt, p {
   font-size: 130%;
-  margin: 1%;
+  margin: 3%;
   margin-left: 20%;
   margin-right: 20%;
 }
