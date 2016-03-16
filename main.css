@@ -89,6 +89,12 @@ dd {
   margin-right: 20%;
 }
 
+.angieslist2012, .angieslist2013 {
+  float: left;
+  width: 180px;
+  margin-left: 20%;
+}
+
 /* galary */
 
 div.img {
@@ -111,6 +117,7 @@ div.desc {
     padding: 3px;
     text-align: center;
 }
+
 
 /*general*/
 
