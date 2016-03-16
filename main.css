@@ -17,6 +17,8 @@ span {
   float: left;
 }
 
+/* navigation */
+
 ul.topnav {
     border-top: 1px solid black;
     list-style-type: none;
@@ -39,6 +41,7 @@ ul.topnav li a {
     font-size: 20px;
 }
 
+/* doesnt work */
 ul.topnav li a:hover {background-color: #f2f2f2;}
 
 ul.logo img:hover {
@@ -46,9 +49,32 @@ ul.logo img:hover {
     filter: alpha(opacity=100);
 }
 
+/* index and contact */
+
 h1, form {
   margin-left: 30%;
 }
+
+div.background {
+    width: 100%;
+    border: 2px solid black;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* services */
 
 dt {
   font-size: 130%;
@@ -86,6 +112,7 @@ div.desc {
     text-align: center;
 }
 
+/*general*/
 
 .background{
   Width: 100%;
