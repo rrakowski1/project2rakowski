@@ -92,7 +92,7 @@ dd {
 /* galary */
 
 div.img {
-    margin: 5px;
+    margin: 20px;
     border: 1px solid #ccc;
     float: left;
     width: 180px;
@@ -108,7 +108,7 @@ div.img img {
 }
 
 div.desc {
-    padding: 15px;
+    padding: 3px;
     text-align: center;
 }
 
