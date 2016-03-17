@@ -57,13 +57,15 @@ h1, form, {
 
 div.background {
     width: 100%;
-    border: 2px solid black;
+    background-image: url("images/blueback.jpg");
+    background-size: cover;
+    background-position: center center;
 }
 
 div.transbox {
     margin: 30px;
     background-color: #ffffff;
-    border: 1px solid black;
+  
     opacity: 0.6;
     filter: alpha(opacity=60);
 }
