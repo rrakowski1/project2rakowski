@@ -41,17 +41,11 @@ ul.topnav li a {
     font-size: 20px;
 }
 
-/* doesnt work */
 ul.topnav li a:hover {background-color: #f2f2f2;}
-
-ul.logo img:hover {
-    opacity: .5;
-    filter: alpha(opacity=100);
-}
 
 /* index and contact */
 
-h1, form, {
+h1, form {
   margin-left: 30%;
 }
 
@@ -62,18 +56,14 @@ div.background {
     background-position: center center;
 }
 
-div.transbox {
-    margin: 30px;
-    background-color: #ffffff;
-  
-    opacity: 0.6;
-    filter: alpha(opacity=60);
+div.background form textarea {
+  width: 60%;
+  height: 12em;
 }
 
-div.transbox p {
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
+div.background form p {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* services */
