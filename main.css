@@ -111,11 +111,21 @@ div.desc {
     text-align: center;
 }
 
+/* products */
+
 div.container {
     float: right;
     margin-top: 2%;
     margin-right: 2%;
+}
 
+div.products {
+    margin: 2%;
+    margin-right: 15%;
+}
+
+div.prodesc {
+    float: right;
 }
 
 /*general*/
