@@ -124,9 +124,12 @@ div.products {
     margin-right: 15%;
 }
 
-div.prodesc {
-    float: right;
+a.button {
+  height: 36px;
+  
 }
+
+
 
 /*general*/
 
