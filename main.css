@@ -51,9 +51,10 @@ h1, form {
 
 div.background {
     width: 100%;
-    background-image: url("images/blueback.jpg");
+    background-image: url("images/bluebacklong.jpg");
     background-size: cover;
-    
+    height: 100%;
+
 }
 
 div.background form textarea {
