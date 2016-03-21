@@ -111,6 +111,12 @@ div.desc {
     text-align: center;
 }
 
+div.container {
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+
+}
 
 /*general*/
 
