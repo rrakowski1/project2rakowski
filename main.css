@@ -1,3 +1,13 @@
+/* fixes collapsing elements when items inside them are floated left or right
+found at http://stackoverflow.com/questions/8554043/what-is-clearfix */
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
 html,
 body {
   width: 100%;
@@ -122,11 +132,37 @@ div.container {
 div.products {
     margin: 2%;
     margin-right: 15%;
+    clear: both;
 }
 
-a.button {
-  height: 36px;
-  
+.products img {
+    float: left;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+div.prodesc {
+    margin: 2%;
+    margin-left: 10%;
+}
+
+/*@media screen and (min-width: 320px) {
+  body {
+    background-color: blue;
+  }
+} */
+
+.products a {
+  color: white;
+  font-family: "Georgia", serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5em;
+  background-color: #006699;
+  border-radius: 12px;
+  border: 2px solid gray;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 }
 
 
