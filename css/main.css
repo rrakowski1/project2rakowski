@@ -169,8 +169,8 @@ div.prodesc {
 
 /*general*/
 
-.background{
-  Width: 100%;
+.background {
+  background-size: 100% 100%;
 }
 
 .footer {
