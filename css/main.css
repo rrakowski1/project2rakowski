@@ -132,10 +132,7 @@ div.container {
     text-transform: uppercase;
     text-decoration: none;
     padding: 0.5em;
-    background-color: rgb (00, 66, 99);
-    border-radius: 12px;
-    border: 2px solid gray;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #006699;
 }
 
 div.products {
@@ -143,9 +140,7 @@ div.products {
     margin-right: 15%;
 <<<<<<< HEAD:css/main.css
 <<<<<<< HEAD:main.css
-    border-radius: 12px;
-    border: 2px solid gray;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
 div.products img {
@@ -154,9 +149,6 @@ div.products img {
 }
 
 div.products a {
-=======
-=======
->>>>>>> origin/master:css/main.css
     clear: both;
 }
 
@@ -168,6 +160,7 @@ div.products a {
 div.prodesc {
     margin: 2%;
     margin-left: 10%;
+    margin-bottom: 10%;
 }
 
 /*@media screen and (min-width: 320px) {
@@ -177,28 +170,16 @@ div.prodesc {
 } */
 
 .products a {
-<<<<<<< HEAD:css/main.css
->>>>>>> origin/master:css/main.css
-=======
->>>>>>> origin/master:css/main.css
   color: white;
   font-family: "Georgia", serif;
   text-transform: uppercase;
   text-decoration: none;
   padding: 0.5em;
-<<<<<<< HEAD:css/main.css
-<<<<<<< HEAD:main.css
-  background-color: rgb (00, 99, 99);
-  border-radius: 12px;
-  border: 2px solid gray;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-=======
-=======
->>>>>>> origin/master:css/main.css
   background-color: #006699;
   border-radius: 12px;
   border: 2px solid gray;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 2%;
 }
 
 <<<<<<< HEAD:css/main.css
@@ -209,7 +190,7 @@ div.prodesc {
 
 
 
-/*general*/
+/*//////////////general////////////////*/
 
 .background {
   background-size: 100% 100%;
