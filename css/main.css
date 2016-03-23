@@ -141,6 +141,7 @@ div.container {
 div.products {
     margin: 2%;
     margin-right: 15%;
+<<<<<<< HEAD:css/main.css
 <<<<<<< HEAD:main.css
     border-radius: 12px;
     border: 2px solid gray;
@@ -154,6 +155,8 @@ div.products img {
 
 div.products a {
 =======
+=======
+>>>>>>> origin/master:css/main.css
     clear: both;
 }
 
@@ -174,24 +177,33 @@ div.prodesc {
 } */
 
 .products a {
+<<<<<<< HEAD:css/main.css
+>>>>>>> origin/master:css/main.css
+=======
 >>>>>>> origin/master:css/main.css
   color: white;
   font-family: "Georgia", serif;
   text-transform: uppercase;
   text-decoration: none;
   padding: 0.5em;
+<<<<<<< HEAD:css/main.css
 <<<<<<< HEAD:main.css
   background-color: rgb (00, 99, 99);
   border-radius: 12px;
   border: 2px solid gray;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 =======
+=======
+>>>>>>> origin/master:css/main.css
   background-color: #006699;
   border-radius: 12px;
   border: 2px solid gray;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+<<<<<<< HEAD:css/main.css
+>>>>>>> origin/master:css/main.css
+=======
 >>>>>>> origin/master:css/main.css
 }
 
