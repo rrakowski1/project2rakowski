@@ -1,3 +1,13 @@
+/* fixes collapsing elements when items inside them are floated left or right
+found at http://stackoverflow.com/questions/8554043/what-is-clearfix */
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
 html,
 body {
   width: 100%;
@@ -117,24 +127,80 @@ div.container {
     float: right;
     margin-top: 2%;
     margin-right: 2%;
+    color: white;
+    font-family: "Georgia", serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.5em;
+    background-color: rgb (00, 66, 99);
+    border-radius: 12px;
+    border: 2px solid gray;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 div.products {
     margin: 2%;
     margin-right: 15%;
+<<<<<<< HEAD:main.css
+    border-radius: 12px;
+    border: 2px solid gray;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-a.button {
-  height: 36px;
-  
+div.products img {
+  margin: 2%;
+    border-radius: 12px;
+}
+
+div.products a {
+=======
+    clear: both;
+}
+
+.products img {
+    float: left;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+div.prodesc {
+    margin: 2%;
+    margin-left: 10%;
+}
+
+/*@media screen and (min-width: 320px) {
+  body {
+    background-color: blue;
+  }
+} */
+
+.products a {
+>>>>>>> origin/master:css/main.css
+  color: white;
+  font-family: "Georgia", serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5em;
+<<<<<<< HEAD:main.css
+  background-color: rgb (00, 99, 99);
+  border-radius: 12px;
+  border: 2px solid gray;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+=======
+  background-color: #006699;
+  border-radius: 12px;
+  border: 2px solid gray;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+>>>>>>> origin/master:css/main.css
 }
 
 
 
 /*general*/
 
-.background{
-  Width: 100%;
+.background {
+  background-size: 100% 100%;
 }
 
 .footer {
