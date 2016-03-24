@@ -15,14 +15,21 @@ body {
   padding: 0;
   border: 0;
   margin: 0;
-  overflow: auto;
+}
+body {
+  background-image: url("../images/bluebacklong.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 span {
   display: block;
 }
 .logo {
   width: 40%;
-  float: left;
+  display: block;
+}
+.logo img {
+  width: 100%;
 }
 /* ///////////navigation //////////////*/
 ul.topnav {
@@ -31,7 +38,6 @@ ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  margin-top: 10%;
   overflow: hidden;
   border-bottom: 1px solid black;
 }
@@ -54,12 +60,6 @@ ul.topnav li a:hover {
 h1,
 form {
   margin-left: 30%;
-}
-div.background {
-  width: 100%;
-  background-image: url("../images/bluebacklong.jpg");
-  background-size: cover;
-  height: 100%;
 }
 div.background form textarea {
   width: 60%;
@@ -124,17 +124,18 @@ div.container {
 .products {
   margin: 2%;
   margin-right: 15%;
+  border: 2%;
   clear: both;
+  padding: 2%;
 }
 .products img {
-  margin: 2%;
   float: left;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .prodesc {
   margin: 2%;
-  margin-left: 10%;
   margin-bottom: 10%;
+  margin-left: 420px;
 }
 /*@media screen and (min-width: 320px) {
   body {
@@ -155,10 +156,6 @@ div.container {
   clear: both;
 }
 /*//////////////general////////////////*/
-.background {
-  background-image: url("../images/backbluelong.jpg");
-  background-size: cover;
-}
 .footer {
   text-align: center;
   width: 100%;
