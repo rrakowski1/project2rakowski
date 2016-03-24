@@ -26,6 +26,7 @@ span {
 }
 /* navigation */
 ul.topnav {
+  font-weight: bold;
   border-top: 1px solid black;
   list-style-type: none;
   margin: 0;
@@ -123,6 +124,7 @@ div.container {
 .products {
   margin: 2%;
   margin-right: 15%;
+  clear: both;
 }
 .products img {
   margin: 2%;
@@ -161,5 +163,5 @@ div.container {
   text-align: center;
   width: 100%;
   padding: 14px 16px;
-  font-size: 17px;
+  font-size: 30px;
 }
