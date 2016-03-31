@@ -17,7 +17,12 @@ body {
   padding: 0;
   border: 0;
   margin: 0;
-  overflow: auto;
+}
+
+body {
+  background-image: url("../images/bluebacklong.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
 span {
@@ -26,17 +31,21 @@ span {
 
 .logo {
   width: 40%;
-  float: left;
+  display: block;
+
+  img {
+    width: 100%;
+  }
 }
 
-/* navigation */
+/* ///////////navigation //////////////*/
 
 ul.topnav {
+    font-weight: bold;
     border-top: 1px solid black;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-top: 10%;
     overflow: hidden;
     border-bottom: 1px solid black;
 }
@@ -55,17 +64,17 @@ ul.topnav li a {
 
 ul.topnav li a:hover {background-color: #f2f2f2;}
 
-/* index and contact */
+/*/////////////  index and contact ////////////////*/
 
 h1, form {
   margin-left: 30%;
 }
 
 div.background {
-    width: 100%;
-    background-image: url("images/bluebacklong.jpg");
-    background-size: cover;
-    height: 100%;
+    // width: 100%;
+    // background-image: url("../images/bluebacklong.jpg");
+    // background-size: cover;
+    // height: 100%;
 
 }
 
@@ -79,7 +88,7 @@ div.background form p {
   margin-right: 0;
 }
 
-/* services */
+/*/////////////// services ////////////////////*/
 
 dt, p {
   font-size: 130%;
@@ -96,18 +105,19 @@ dd {
 
 .angieslist2012, .angieslist2013 {
   float: left;
-  width: 180px;
+  width: 15%;
   margin-left: 20%;
 }
 
-/* galary */
+/*//////////////// gallery ///////////////////*/
 
 div.img {
     margin: 20px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 300px;
 }
+
 
 div.img:hover {
     border: 1px solid #777;
@@ -123,9 +133,9 @@ div.desc {
     text-align: center;
 }
 
-/* products */
+/*//////////////// products //////////////////////*/
 
-div.container {
+.container {
     float: right;
     margin-top: 2%;
     margin-right: 2%;
@@ -142,27 +152,29 @@ div.container {
 
 .products {
     margin: 2%;
-    margin-right: 15%;
-
+    margin-right: 5%;
+    border: 2%;
+    clear: both;
+    padding: 2%;
 }
 
 .products img {
-    margin: 2%;
     float: left;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .prodesc {
     margin: 2%;
-    margin-left: 10%;
     margin-bottom: 10%;
+    margin-left: 420px;
 }
 
-/*@media screen and (min-width: 320px) {
+
+@media screen and (min-width: 500px) {
   body {
     background-color: blue;
   }
-} */
+}
 
 .products a {
   color: white;
@@ -175,26 +187,17 @@ div.container {
   border: 2px solid gray;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   margin: 2%;
+  float: right;
   clear: both;
 }
 
 /*//////////////general////////////////*/
 
-.background {
-  background-size: 100% 100%;
-}
+
 
 .footer {
     text-align: center;
     width: 100%;
     padding: 14px 16px;
-    font-size: 17px
-
+    font-size: 30px
   }
-
-
-@media screen and (min-width: 320px) {
-  body {
-    background-color: blue;
-  }
-}
