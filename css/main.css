@@ -1,15 +1,13 @@
 /* fixes collapsing elements when items inside them are floated left or right
-found at http://stackoverflow.com/questions/8554043/what-is-clearfix*/
+found at http://stackoverflow.com/questions/8554043/what-is-clearfix */
 .clearfix:after {
   content: " ";
-   /*Older browser do not support empty content*/
+  /* Older browser do not support empty content */
   visibility: hidden;
   display: block;
   height: 0;
   clear: both;
 }
-
-
 html,
 body {
   width: 100%;
@@ -19,9 +17,15 @@ body {
   margin: 0;
 }
 body {
+  background-color: white;
   background-image: url("../images/bluebacklong.jpg");
   background-size: 100% 100%;
+  background-position: center 100px;
   background-attachment: fixed;
+  background-repeat: repeat-x;
+}
+.home {
+  background-image: none;
 }
 span {
   display: block;
@@ -109,7 +113,7 @@ div.desc {
   text-align: center;
 }
 /*//////////////// products //////////////////////*/
-div.container {
+.container {
   float: right;
   margin-top: 2%;
   margin-right: 2%;
@@ -136,15 +140,12 @@ div.container {
 }
 .prodesc {
   margin: 2%;
+  margin-bottom: 10%;
   margin-left: 420px;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 500px) {
   body {
     background-color: blue;
-  }
-
-  .prodesc {
-    clear: both;
   }
 }
 .products a {
