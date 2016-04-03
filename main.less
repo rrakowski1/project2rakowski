@@ -20,16 +20,9 @@ body {
 }
 
 body {
-  background-color: white;
   background-image: url("../images/bluebacklong.jpg");
   background-size: 100% 100%;
-  background-position: center 100px;
   background-attachment: fixed;
-  background-repeat: repeat-x;
-}
-
-.home {
-  background-image: none;
 }
 
 span {
@@ -70,6 +63,13 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover {background-color: #f2f2f2;}
+
+@media screen and (max-width: 550px) {
+  .h1 {
+    float: left;
+    margin-left: 10%;
+  }
+}
 
 /*/////////////  index and contact ////////////////*/
 
@@ -177,11 +177,11 @@ div.desc {
 }
 
 
-@media screen and (min-width: 500px) {
+/*@media screen and (min-width: 500px) {
   body {
     background-color: blue;
   }
-}
+}*/
 
 .products a {
   color: white;

@@ -59,14 +59,30 @@ ul.topnav li a {
   transition: 0.3s;
   font-size: 20px;
 }
+
+@media screen and (max-width: 550px) {
+  ul.topnav li a {
+    font-size: 18px;
+    padding: 8px 10px;
+  }
+}
+
 ul.topnav li a:hover {
   background-color: #f2f2f2;
 }
+
 /*/////////////  index and contact ////////////////*/
 h1,
 form {
   margin-left: 30%;
 }
+
+@media screen and (max-width: 550px) {
+  .h1 {
+    margin-left: 10%;
+  }
+}
+
 div.background form textarea {
   width: 60%;
   height: 12em;
@@ -127,6 +143,13 @@ div.desc {
   border: 2px solid gray;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+@media screen and (max-width: 80px) {
+  .container {
+    padding-top: 20%;
+    }
+  }
+
 .products {
   margin: 2%;
   margin-right: 5%;
@@ -138,14 +161,20 @@ div.desc {
   float: left;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.prodesc {
-  margin: 2%;
-  margin-bottom: 10%;
-  margin-left: 420px;
+
+@media screen and (min-width: 800px) {
+  .prodesc {
+    margin: 2%;
+    margin-bottom: 10%;
+    margin-left: 420px;
+  }
 }
-@media screen and (min-width: 500px) {
-  body {
-    background-color: blue;
+
+@media screen and (max-width: 800px) {
+  .prodesc {
+    clear: both;
+    margin-top: 10%;
+    padding-top: 2%;
   }
 }
 .products a {
