@@ -72,11 +72,14 @@ ul.topnav li a:hover {
 }
 
 /*/////////////  index and contact ////////////////*/
-h1,
+
 form {
   margin-left: 30%;
 }
 
+h1 {
+  text-align: center;
+}
 /*//////////////////////////////////////////////////*/
 /*//////////////Help///////////////////////////////*/
 /*/////////////////////////////////////////////////*/
@@ -163,6 +166,7 @@ div.desc {
   clear: both;
   padding: 2%;
 }
+
 .products img {
   float: left;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -172,7 +176,7 @@ div.desc {
   .prodesc {
     margin: 2%;
     margin-bottom: 10%;
-    margin-left: 420px;
+    margin-left: 430px;
   }
 }
 
@@ -193,9 +197,9 @@ div.desc {
   border-radius: 12px;
   border: 2px solid gray;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 2%;
-  float: right;
-  clear: both;
+
+
+
 }
 /*//////////////general////////////////*/
 .footer {
